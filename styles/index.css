@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: darkgrey;
+  color: #fff;
+}
+
+
+#main-header{
+  padding: 10px;
+  background-color: rgb(72, 87, 118);
+  width: 100%;
+  text-align: center
+}
+
+.socialLinks{
+  display: flex;
+  list-style-type: none;
+  align-items:center;
+  justify-content:center;
+}
