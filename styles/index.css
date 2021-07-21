@@ -18,8 +18,18 @@ body{
 }
 
 .socialLinks{
-  display: flex;
   list-style-type: none;
+  display: flex;
   align-items:center;
   justify-content:center;
+}
+.socialLinks li {
+  padding: 2px;
+}
+.socialLinks li a{
+  color:#fff;
+}
+
+#main-footer{
+  display: flex;
 }
