@@ -4,12 +4,19 @@
   box-sizing: border-box;
 }
 
+/* default Tags */
 body{
-  background-color: darkgrey;
+  background-color: rgb(39, 33, 33);
   color: #fff;
+  font-family: sans-serif;
 }
 
+/* utility */
 
+
+/* Classes */
+
+/* styles */
 #main-header{
   padding: 10px;
   background-color: rgb(72, 87, 118);
@@ -30,6 +37,93 @@ body{
   color:#fff;
 }
 
-#main-footer{
+.mainPage{
+  width: 100%;
+  height: 80vh;
+  padding: 10px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainIntro{
+  font-family: monospace;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.616);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.329);
+}
+
+.countdown{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.countdown .time{
+  padding: 5px;
+  width: 25%;
+  text-align: center;
+}
+.countdown .time:nth-of-type(odd){
+  background-color: gold;
+}
+.countdown .time:nth-of-type(even){
+  background-color: black;
+}
+
+.callToAction{
+  background-color: darkblue;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.callToAction h3{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight:bolder;
+  font-family: monospace;
+}
+.callToAction form input,
+.callToAction form button {
+  background-color: goldenrod;
+  border: none;
+  padding: 3px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.callToAction form button{
+  margin-top: 3px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+
+
+#main-footer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+
+}
+
+.footer-copy{
+  padding: 10px;
+}
+
+.footer-links{
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.footer-links ul{
+  padding: 5px;
+}
+.footer-links li{
+  font-size: 10px;
 }
