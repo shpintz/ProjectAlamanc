@@ -23,14 +23,33 @@
   </header>
 
   <!-- main website detail -->
-  <main>
+  <main class="mainPage">
     <!-- Main Introduction -->
-    <div>
+    <div id="mainIntro">
       <p>Well like most interesting things, they all have to start somewhere, just like that we are going to be starting once this timer hits <strong>zero</strong>.... </p>
     </div>
-    <!-- COUNTDOWNTIMER - js attachment we go live sept 1st -->
-    <p>00:00:00</p>
 
+    <!-- COUNTDOWNTIMER - js attachment we go live sept 1st -->
+    <div id="countdown" class="countdown">
+      <div class="time">
+        <h2 id="days">00</h2>
+        <small>Days</small>
+      </div>
+      <div class="time">
+        <h2 id="hours">00</h2>
+        <small>Hours</small>
+      </div>
+      <div class="time">
+        <h2 id="minutes">00</h2>
+        <small>Minutes</small>
+      </div>
+      <div class="time">
+        <h2 id="seconds">00</h2>
+        <small>Seconds</small>
+      </div>
+    </div>
+
+    <!-- Call To Action -->
     <div>
       <h3>If you want to get updates link up:</h3>
       <form>
@@ -74,5 +93,13 @@
 
   </footer>
 
+  <script src="./index.js"></script>
 </body>
 </html>
+
+<!--
+
+  Create a way where you can get
+  get drivers for starbucks instead of using ubber, a company app.
+
+ -->

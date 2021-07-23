@@ -4,12 +4,18 @@
   box-sizing: border-box;
 }
 
+/* default Tags */
 body{
-  background-color: darkgrey;
+  background-color: rgb(39, 33, 33);
   color: #fff;
 }
 
+/* utility */
 
+
+/* Classes */
+
+/* styles */
 #main-header{
   padding: 10px;
   background-color: rgb(72, 87, 118);
@@ -30,6 +36,46 @@ body{
   color:#fff;
 }
 
+.mainPage{
+  width: 100%;
+  height: 80vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainIntro{
+  font-family: monospace;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.616);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.329);
+}
+
+.countdown{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.countdown .time{
+  padding: 5px;
+  width: 25%;
+  text-align: center;
+}
+.countdown .time:nth-of-type(odd){
+  background-color: gold;
+}
+.countdown .time:nth-of-type(even){
+  background-color: black;
+}
+
+
+
 #main-footer{
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
